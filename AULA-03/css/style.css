@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+h1 ~ p { /* ~ selector  filhos */
+    color: blueviolet; /* propriedade: atributo */
+    font-family:  "Lugrasimo", cursive; /* Aterar tamanho da fonte */
+    border: 1px solid black; /* borda texto, largura,tipo, cor  */
+    /* background: gold; */ /* preencimento campo */
+}
+
+#TituloUm {
+    background: cadetblue;
+}
+
+#TituloDois {
+    background: darkblue;
+}
+.subt2 {
+    color: green;
+}
+.subt1 {
+    color: darkgreen;
+}
+h2 {
+    color: wheat;
+}
+
+p {
+    color: red;
+}
