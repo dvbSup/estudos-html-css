@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Lugrasimo&display=swap');
+img {
+
+}
+
+body {
+    background: blue;
+   
+}
+
+main{
+    text-align:;
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px; 
+}
+
+#cabst1 {
+    text-align: center;
+}
+
+#imgcab1 {
+    width: 1120px;
+    height: 380px;
+    border-radius: 20px; 
+    margin: 20px auto;
+    border: 1px solid black;
+    background: url(pexels-nikolaos-dimou-1250289.jpg) no-repeat center center/cover;
+}
+
+#downrec1 a {
+    color: white;
+    display: block;
+    margin: 20px;
+    width:180px ;
+    height: 20px;
+    text-align: center;
+    background-color: dodgerblue;
+    border: 2px solid blue;
+    border-radius: 3px; 
+    
+
+}
+
+#folft1 {
+    font-family: "Allan", serif;
+    text-align: right;
+}
+
+#serv1 {
+    margin: 20px
+}
+
+#cabingr1 {
+    text-align: center;
+}
+
+#modpre1 {
+    text-align: center;
+}
+
+#inf1 {
+    text-align: center;
+}
+
+#videoext1 {
+    text-align: center;
+}
+
+#foldep {
+    font-weight: bold;
+    text-align: center;
+}
