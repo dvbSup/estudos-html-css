@@ -9,10 +9,15 @@
   nav a:hover {
     outline: 5px solid orangered;
 }
+
 #menu a {
   padding: 8px;
   border-radius: 2px;
   border: 5px solid black;
+}
+nav a {
+  background-color: aqua;
+
 }
 nav {
   border: 2px solid aquamarine;
@@ -24,11 +29,19 @@ nav {
   text-align: center;
 }
 
+label[for='botao-menu'] {
+  background: black;
+  color: white;
+  padding: 2px;
+  display: none;
+  /* width: 50px;
+  height: 50px; */
+}
 @media (max-width: 700px) {
     #menu{
-      margin-top: -100;
+      margin-top: -100%;
     }
-    #btmn{
+    label[for='botao-menu'] {
       display: block;
     }
 }
@@ -36,16 +49,10 @@ nav {
 #botao-menu {
   display: none;
 }
-#btmn {
-  background: black;
-  color: white;
-  padding: 2px;
-  display: none;
-  width: 50px;
-  height: 50px;
-}
+
 #botao-menu:checked ~ #menu{
   margin-top: 0px;
+  
 }
 </style>
 
@@ -53,7 +60,7 @@ nav {
   <body>
     
     <input type="checkbox" id="botao-menu">
-    <div id="btmn"><label for="botao-menu">&#9776</label></div>
+    <label for="botao-menu">&#9776</label>
    
     <nav id="menu">
       <a href="#texingr">INGREDIENTES</a>
