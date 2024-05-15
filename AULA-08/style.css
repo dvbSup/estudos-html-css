@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cortexto:white;
+    --fundosite:; url('') ;
+    --corborda: rgba(255,255,255,0.5);
+    --corbotao: rgba(255,255,255,0.05);
+    --corbotaohover: rgba(255,255,255,0.02);
+    -corbrilho: rgba(255,255,255,0.2);
+    --bgmodo:
+
+}
